@@ -68,7 +68,7 @@ body {
       }
     }
     .menus__category {
-      overflow: hidden;
+      overflow: hidden;  
 
       .menu-item {
         $numberOfItems: 3;
@@ -114,12 +114,12 @@ body {
           width: $button-width;
           transition: margin-right 0.5s;
           i {
-            $size: 1rem;
+            $size: 3rem;
             display: grid;
             place-items: center;
             background: white;
-            height: $size;
-            width: $size;
+            height: 2rem;
+            width: 2rem;
             border-radius: 1rem;
             color: colors.$color-tertiary;
           }

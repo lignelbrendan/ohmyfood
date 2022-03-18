@@ -470,8 +470,8 @@ body {
   display: grid;
   place-items: center;
   background: white;
-  height: 1rem;
-  width: 1rem;
+  height: 2rem;
+  width: 2rem;
   border-radius: 1rem;
   color: #99e2d0;
 }
