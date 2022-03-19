@@ -205,6 +205,10 @@ header {
   right: 1rem;
   top: 1rem;
 }
+#homepage .menus .card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+}
 #homepage .menus .card__image {
   height: 15rem;
   border-radius: 1rem 1rem 0 0;
@@ -223,12 +227,17 @@ header {
 #homepage .menus .card__image-4 {
   background-image: url("../assets/menu-4.jpg");
 }
-#homepage .menus .card__description {
+#homepage .menus .card__description h3,
+#homepage .menus .card__description p {
+  padding: 0.3rem;
+}
+#homepage .menus .card__description__heart {
   position: relative;
   background-color: white;
   border-radius: 0 0 1rem 1rem;
+  top: 2.5rem;
 }
-#homepage .menus .card__description::before {
+#homepage .menus .card__description__heart::before {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -248,7 +257,7 @@ header {
   opacity: 1;
   transition: all 200ms ease-in-out;
 }
-#homepage .menus .card__description::after {
+#homepage .menus .card__description__heart::after {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -269,13 +278,9 @@ header {
   transition: all 200ms ease-in-out;
   background-image: linear-gradient(to top, #9356dc, #ff79da);
 }
-#homepage .menus .card__description:hover::after {
+#homepage .menus .card__description__heart:hover::after {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
-}
-#homepage .menus .card__description h3,
-#homepage .menus .card__description p {
-  padding: 0.3rem;
 }
 
 footer {
